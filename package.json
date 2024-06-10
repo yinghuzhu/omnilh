@@ -1,0 +1,14 @@
+{
+  "name": "omnilh",
+  "version": "1.0.0",
+  "description": "A simple static site for deployment on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Omnilh",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
