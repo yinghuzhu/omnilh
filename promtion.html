@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Privacy Policy - Omnilh</title>
+    <title>Free Door-to-Door Shipping - Omnilh</title>
     <meta name="description" content="Omnilh is a professional scarf supplier . With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -33,7 +33,7 @@
         <div class="container"><a class="navbar-brand logo" href="index.html"><img src="assets/img/omnilh/logo.jpg" width="60" height="60" alt="home"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="promtion.html"><span style="font-weight: normal !important; color: rgb(0, 0, 0);">Promotion</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="promtion.html"><span style="font-weight: normal !important; color: rgb(0, 0, 0);">Promotion</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="catalog.html"><span style="font-weight: normal !important; color: rgb(0, 0, 0);">Product Catalog</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://shamn.en.alibaba.com/featureproductlist.html" target="_blank"><span style="font-weight: normal !important; color: rgb(0, 0, 0);">Hot Selling</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://shamn.en.alibaba.com/index.html" target="_blank">Alibaba Store</a></li>
@@ -42,38 +42,104 @@
         </div>
     </nav>
     <main class="page">
-        <section class="clean-block about-us">
+        <section class="clean-block">
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Privacy Policy</h2>
-                </div><section>
-        <p><strong>Omnilh</strong> is committed to protecting the privacy of its users. This Privacy Policy explains how we collect, use, and store information, and our commitment to user privacy.</p>
-    </section>
+                <div>
+                    <div class="block-heading">
+                        <h2 class="text-center"><span style="color: rgb(0, 0, 0);">Free Door-to-Door Shipping</span></h2>
+                    </div><style>
+        .pdf-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .fullscreen-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background-color: white;
+        }
+        .fullscreen iframe {
+            height: 100%;
+        }
+        .pdf-title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
 
-    <section>
-        <h4>Information Collection</h4>
-        <p>We operate a website primarily for informational purposes, and we do not actively collect any personal information from our users. When you browse our website, we do not track your personal data nor do we ask you to provide personally identifiable information.</p>
-    </section>
+<div class="container">
+    <div class="row">
+        
+          
+             <div class="col-md-12 pdf-container">
+                <button class="fullscreen-btn" onclick="toggleFullscreen(this)">full screen</button>
+                <iframe id="001-pashmina-door-to-door" class="lazy-load" data-src="https://drive.google.com/file/d/1SQ_3OrmtW_pDVsh2wxEqhMnfc0Ptpgb_/preview"></iframe>
+                <p class="pdf-title">001-pashmina-door-to-door</p>
+            </div>
+        
+          
+    
+    </div>
+</div>
+<script>
+    function toggleFullscreen(button) {
+        var container = button.parentElement;
+        var iframe = container.querySelector('iframe');
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            document.exitFullscreen();
+            button.textContent = 'full screen';
+        } else {
+            container.classList.add('fullscreen');
+            container.requestFullscreen();
+            button.textContent = 'exit full screen';
+        }
+    }
 
-    <section>
-        <h4>Cookies and Tracking Technologies</h4>
-        <p>We may use cookies to enhance your experience, such as remembering your preferences. These cookies do not contain any personal data and are solely used to improve your browsing experience. Please note that you can manage your cookie preferences at any time through your browser settings.</p>
-    </section>
+    document.addEventListener("DOMContentLoaded", function() {
+        const iframes = document.querySelectorAll('.lazy-load');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const iframe = entry.target;
+                    iframe.src = iframe.dataset.src;
+                    iframe.classList.remove('lazy-load');
+                    observer.unobserve(iframe);
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.1
+        });
 
-    <section>
-        <h4>Third-Party Services</h4>
-        <p>While we do not actively collect personal information, please be aware that our website may include links to third-party services, such as social media platforms or mapping services. These third parties may have their own privacy policies, and we encourage you to review their privacy statements before engaging with their services.</p>
-    </section>
+        iframes.forEach(iframe => {
+            observer.observe(iframe);
+        });
+    });
+</script>
 
-    <section>
-        <h4>Transparency and Accountability</h4>
-        <p>We are committed to transparency in our privacy practices. If you have any questions or concerns about our privacy practices, please feel free to contact us at:  <a href="mailto:info@omnilh.com">info@omnilh.com</a>
-    </section>
-
-    <section>
-        <h4>Changes to Privacy Policy</h4>
-        <p>We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page so that you are always aware of how we protect your privacy.</p>
-    </section>
+                </div>
             </div>
         </section>
     </main>
