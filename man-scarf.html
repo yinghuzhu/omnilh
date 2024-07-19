@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Omnilh - Professional supplier of pashmina scarf</title>
+    <title>Man Scarf Catalog - Omnilh</title>
     <meta name="description" content="Omnilh is a professional scarf supplier . With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -41,32 +41,105 @@
             </div>
         </div>
     </nav>
-    <main class="page landing-page">
-        <section class="clean-block clean-info dark">
+    <main class="page">
+        <section class="clean-block">
             <div class="container">
-                <div class="block-heading"></div>
-                <div class="row align-items-center">
-                    <div class="col-md-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/koK7R-N0wnQ?si=6IE8NhEVluNNusJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-                    <div class="col-md-6">
-                        <h3><span style="color: rgb(51, 51, 51);">Professional Scarf Supplier&nbsp;</span></h3>
-                        <div class="getting-started-info">
-                            <p><span style="color: rgb(51, 51, 51);">Omnilh is a professional scarf supplier. With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.</span></p>
-                        </div>
-                    </div>
-                </div>
+                <div>
+                    <div class="block-heading">
+                        <h2 class="text-center">Man Scarf Catalog</h2>
+                    </div><style>
+        .pdf-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .fullscreen-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .fullscreen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+            background-color: white;
+        }
+        .fullscreen iframe {
+            height: 100%;
+        }
+        .pdf-title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+
+<div class="container">
+    <div class="row">
+        
+          
+             <div class="col-md-12 pdf-container">
+                <button class="fullscreen-btn" onclick="toggleFullscreen(this)">full screen</button>
+                <iframe id="omnilh_019_man_scarf_01" class="lazy-load" data-src="https://drive.google.com/file/d/1BoVGooBsR-sxPF39PpHbb7Kvo3x5wDUJ/preview"></iframe>
+                <p class="pdf-title">omnilh_019_man_scarf_01</p>
             </div>
-        </section>
-        <section>
-            <div class="text-center m" style="padding: 0px;height: 33.7266px;margin: 0px;">
-                <h3>Top Ranking</h3>
-            </div>
-            <div class="text-center m" style="padding: 0px;height: 33.7266px;margin: 0px;">
-                <h2></h2>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center"><img src="https://sc04.alicdn.com/kf/H3056f311aa9e49448004c66353f4d5eaN.jpg" width="500"></div>
-                    <div class="col-md-5 text-center"><img src="https://sc04.alicdn.com/kf/Hdeeba027076a4220aa905576f31a20dcK.jpg" width="500"></div>
+        
+    
+          
+    
+    </div>
+</div>
+<script>
+    function toggleFullscreen(button) {
+        var container = button.parentElement;
+        var iframe = container.querySelector('iframe');
+        if (container.classList.contains('fullscreen')) {
+            container.classList.remove('fullscreen');
+            document.exitFullscreen();
+            button.textContent = 'full screen';
+        } else {
+            container.classList.add('fullscreen');
+            container.requestFullscreen();
+            button.textContent = 'exit full screen';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const iframes = document.querySelectorAll('.lazy-load');
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const iframe = entry.target;
+                    iframe.src = iframe.dataset.src;
+                    iframe.classList.remove('lazy-load');
+                    observer.unobserve(iframe);
+                }
+            });
+        }, {
+            rootMargin: '0px',
+            threshold: 0.1
+        });
+
+        iframes.forEach(iframe => {
+            observer.observe(iframe);
+        });
+    });
+</script>
+
                 </div>
             </div>
         </section>
