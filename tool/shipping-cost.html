@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Shipping Cost Calculator - Omnilh</title>
+    <meta name="description" content="Omnilh is a professional scarf supplier . With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.omnilh.com/assets/img/omnilh/logo.jpg">
+    <meta name="twitter:image" content="https://www.omnilh.com/assets/img/omnilh/logo.jpg">
+    <meta name="keywords" content="Pashmina Scarf Scarves">
+    <link rel="icon" type="image/jpeg" sizes="927x937" href="../assets/img/omnilh/logo.jpg">
+    <link rel="icon" type="image/jpeg" sizes="927x937" href="../assets/img/omnilh/logo.jpg">
+    <link rel="icon" type="image/jpeg" sizes="927x937" href="../assets/img/omnilh/logo.jpg">
+    <link rel="icon" type="image/jpeg" sizes="927x937" href="../assets/img/omnilh/logo.jpg">
+    <link rel="icon" type="image/jpeg" sizes="927x937" href="../assets/img/omnilh/logo.jpg">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="../assets/css/swiper-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="../assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/iframe.css">
+    <link rel="stylesheet" href="../assets/css/Simple-Slider-swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="../assets/css/vanilla-zoom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="../index.html"><img src="../assets/img/omnilh/logo.jpg" width="60" height="60" alt="home"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="row">
+                <div class="col col-10"></div>
+                <div class="col col-1">
+                    <div class="dropdown"><a class="dropdown-toggle fs-6" aria-expanded="false" data-bs-toggle="dropdown"><span style="color: rgb(0, 0, 0);">PRODUCT CATALOG</span></a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="../pashmina-scarf.html">Pashmina</a><a class="dropdown-item" href="../embroidered.html"><span style="color: rgb(51, 51, 51); background-color: rgb(255, 255, 255);">Embroidered</span></a><a class="dropdown-item" href="../silk.html">Silk</a><a class="dropdown-item" href="../imitation-silk.html">Imitation Silk</a><a class="dropdown-item" href="../man-scarf.html">Man Scarf</a><a class="dropdown-item" href="../imitation-cashmere.html"><span style="color: inherit; background-color: rgb(255, 255, 255);">Imitation Cashmere</span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link fs-6" href="https://shamn.en.alibaba.com/featureproductlist.html" target="_blank"><span style="font-weight: normal !important; color: rgb(0, 0, 0);">Hot Selling</span></a></li>
+                    <li class="nav-item"><a class="nav-link fs-6" href="https://shamn.en.alibaba.com/index.html" target="_blank">Alibaba Store</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading"><section class="clean-block about-us">
+            <div class="container">
+                
+                <div class="calculator-container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="length" class="form-label">Length (cm):</label>
+                                        <input type="number" class="form-control" id="length" step="1" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="width" class="form-label">Width (cm):</label>
+                                        <input type="number" class="form-control" id="width" step="1" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="height" class="form-label">Height (cm):</label>
+                                        <input type="number" class="form-control" id="height" step="1" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="weight" class="form-label">Weight (kg):</label>
+                                        <input type="number" class="form-control" id="weight" step="0.5" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="shippingRate" class="form-label">Shipping Rate per kg:</label>
+                                        <input type="number" class="form-control" id="shippingRate" step="0.01" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="exchangeRate" class="form-label">Exchange Rate(USD To Local Currency):</label>
+                                        <input type="number" class="form-control" id="exchangeRate" step="0.01" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="volumeToWeightConversion" class="form-label">Volume to Weight Conversion:</label>
+                                        <input type="number" class="form-control" id="volumeToWeightConversion" step="1" value="6000">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn btn-success btn-block" onclick="calculateShippingCost()">Calculate Shipping Cost</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Shipping Results</h2>
+                            <div class="mb-3">
+                                <label>Volume:</label>
+                                <span id="shippingVolume"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label>Weight after volume conversion:</label>
+                                <span id="shippingWeight"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label>Shipping Cost (Local Currency):</label>
+                                <span id="shippingCostCNY"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label>Shipping Cost (USD):</label>
+                                <span id="shippingCostUSD"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function calculateShippingCost() {
+                        const length = parseFloat(document.getElementById("length").value) / 100; // Convert cm to meters
+                        const width = parseFloat(document.getElementById("width").value) / 100; // Convert cm to meters
+                        const height = parseFloat(document.getElementById("height").value) / 100; // Convert cm to meters
+                        let weight = parseFloat(document.getElementById("weight").value);
+                        const shippingRateByWeight = parseFloat(document.getElementById("shippingRate").value);
+                        const exchangeRate = parseFloat(document.getElementById("exchangeRate").value) || 7.0; // Default exchange rate is 7.0
+                        const volumeToWeightConversion = parseFloat(document.getElementById("volumeToWeightConversion").value) || 6000; // Default volume to weight conversion is 6000
+
+                        const volume = length * width * height;
+                        let shippingCost;
+
+                        const ration = volume * 1000000 / volumeToWeightConversion;
+                        if (ration > weight) {
+                            weight = ration;
+                        }
+
+                        shippingCost = weight * shippingRateByWeight;
+
+                        const shippingCostInUSD = shippingCost / exchangeRate;
+
+                        document.getElementById("shippingVolume").textContent = volume.toFixed(2) + " m³";
+                        document.getElementById("shippingWeight").textContent = weight.toFixed(2) + " kg";
+                        document.getElementById("shippingCostCNY").textContent = shippingCost.toFixed(2) + " CNY";
+                        document.getElementById("shippingCostUSD").textContent = shippingCostInUSD.toFixed(2) + " USD";
+                    }
+                </script>
+            </div>
+        </section></div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white page-footer dark">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-3"><a class="link-dark" href="../index.html">Home</a></div>
+                                <div class="col-6"><a class="link-dark" href="https://shamn.en.alibaba.com/featureproductlist.html" target="_blank">Hot Selling</a></div>
+                                <div class="col-3"><a class="link-dark" href="https://shamn.en.alibaba.com/index.html" target="_blank">Store</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">© 2024 Omnilh&nbsp;<span style="color: rgb(0, 0, 0);">All Rights Reserved.</span></p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <div class="col-md-2"><a class="link-dark" href="../privacy-policy.html">Privacy&nbsp;</a></div>
+                                <div class="col-md-2"><a class="link-dark" href="../privacy-policy.html">Policy</a></div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-2"><a href="https://api.whatsapp.com/send?phone=16502487445" target="_blank">
+                    <i class="fab fa-whatsapp fa-2x" style="color: #25D366;"></i>
+                </a></div>
+                                <div class="col-md-2"><a href="https://www.facebook.com/profile.php?id=61561086866318" target="_blank">
+                    <i class="fab fa-facebook fa-2x" style="color: #3b5998;"></i>
+                </a></div>
+                                <div class="col-md-2"><a href="mailto:info@omnilh.com">
+  <i class="fas fa-envelope fa-2x" style="color: #0078D7;"></i>
+</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/baguetteBox.min.js"></script>
+    <script src="../assets/js/vanilla-zoom.js"></script>
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/Simple-Slider-swiper-bundle.min.js"></script>
+    <script src="../assets/js/Simple-Slider.js"></script>
+</body>
+
+</html>
