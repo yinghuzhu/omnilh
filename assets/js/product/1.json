@@ -39,8 +39,6 @@
         "weight": "170g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/4078595983_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/3823781674_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/3823234755_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/3083486300_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/14071871728_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/11433506652_858370594.jpg",
@@ -1252,12 +1250,7 @@
         "weight": "210g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/2299788450_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/12107348355_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/12036366757_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/12036363763_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/13982432923_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/12036363763_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/12036363539_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/12036396245_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/12107339611_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/12107348129_858370594.jpg",
@@ -2362,7 +2355,6 @@
         "size": "65cm",
         "weight": "410g",
         "secondaryImageURLs": [
-            "https://cbu01.alicdn.com/img/ibank/2017/889/073/4469370988_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/421/883/4469388124_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/449/373/4469373944_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/770/193/4469391077_858370594.jpg",
@@ -2371,12 +2363,11 @@
             "https://cbu01.alicdn.com/img/ibank/2017/899/260/4464062998_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/128/205/4469502821_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/308/505/4469505803_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2017/889/073/4469370988_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/421/883/4469388124_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2017/348/170/4464071843_858370594.jpg"
         ],
         "MOQ": 10,
-        "mainImageURL": "https://cbu01.alicdn.com/img/ibank/2017/889/073/4469370988_858370594.jpg"
+        "mainImageURL": "https://cbu01.alicdn.com/img/ibank/2017/421/883/4469388124_858370594.jpg"
     },
     "89": {
         "id": 89,
@@ -2509,19 +2500,10 @@
         "weight": "230g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/2019/904/119/11042911409_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/318/031/10889130813_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/763/241/10889142367_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/026/631/10889136620_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2019/659/407/10942704956_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2019/644/176/10919671446_858370594.jpg",
             "https://cbu01.alicdn.com/img/ibank/2019/813/476/10919674318_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/693/776/10919677396_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/349/746/10919647943_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/414/566/10919665414_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/132/952/10948259231_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/059/532/10948235950_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/333/541/10889145333_858370594.jpg",
-            "https://cbu01.alicdn.com/img/ibank/2019/202/262/10948262202_858370594.jpg"
+            "https://cbu01.alicdn.com/img/ibank/2019/693/776/10919677396_858370594.jpg"
         ],
         "MOQ": 10,
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/2019/904/119/11042911409_858370594.jpg"
