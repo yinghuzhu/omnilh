@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>About Us - Omnilh</title>
+    <title>Catalog - Omnilh</title>
     <meta name="description" content="Omnilh is a professional scarf supplier . With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/iframe.css">
@@ -52,43 +51,235 @@
         </div>
     </nav>
     <main class="page">
-        <section class="clean-block about-us">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">John Smith</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">Robert Downturn</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">Ally Sanders</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <div class="container"><span>Text</span><style>
+  .category-list {
+      padding-left: 0;
+      max-height: 500px;
+      overflow-y: auto;
+  }
+
+  .card-title {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+
+  .price-red {
+     color: red;
+     font-size: 1.5em;
+  }
+</style>
+
+<div class="row">
+  <div class="col-md-2 bg-light">
+    <h5 class="mt-3">Product List</h5>
+    <div class="category-list list-group"></div>
+  </div>
+  <div class="col-md-10">
+    <div class="d-flex justify-content-between align-items-center">
+      <h2 class="my-3" id="category-title">All Products</h2>
+      <nav aria-label="Page navigation top">
+        <ul class="pagination justify-content-end mt-3" id="pagination-top"></ul>
+      </nav>
+    </div>
+    <div class="row" id="product-list"></div>
+    <nav aria-label="Page navigation bottom">
+      <ul class="pagination justify-content-center mt-3" id="pagination-bottom"></ul>
+    </nav>
+  </div>
+</div>
+
+<script>
+  const categoriesUrl = 'assets/js/categories.json';
+  let categories = [];
+  let products = [];
+  let currentCategory = '';
+  let currentPage = 1;
+  const pageSize = 16;
+
+  // Fetch categories and initialize the page
+  fetch(categoriesUrl)
+    .then(response => response.json())
+    .then(data => {
+      categories = data;
+      renderCategories();
+      if (categories.length > 0) {
+        const firstCategoryId = categories[0].id;
+        const firstCategoryName = categories[0].name;
+        const firstCategoryProductsUrl = 'assets/js/product/' + firstCategoryId + '.json';
+        currentCategory = firstCategoryId;
+        loadProducts(firstCategoryProductsUrl);
+        document.getElementById('category-title').textContent = firstCategoryName;
+      }
+    })
+    .catch(error => console.error('Error fetching categories:', error));
+
+  // Render category list
+  function renderCategories() {
+    const categoryList = document.querySelector('.category-list');
+    categoryList.innerHTML = '';
+
+    categories.forEach(category => {
+      const categoryLink = createCategoryLink(category.name, category.id, category.name);
+      categoryList.appendChild(categoryLink);
+    });
+  }
+
+  // Create a category link
+  function createCategoryLink(text, categoryId, categoryName) {
+    const productsUrl = 'assets/js/product/' + categoryId + '.json';
+    const categoryLink = document.createElement('a');
+    categoryLink.href = '#';
+    categoryLink.textContent = text;
+    categoryLink.classList.add('list-group-item', 'list-group-item-action');
+    categoryLink.addEventListener('click', () => {
+      currentCategory = categoryId;
+      loadProducts(productsUrl);
+      document.getElementById('category-title').textContent = categoryName;
+    });
+    return categoryLink;
+  }
+
+  // Load product list
+  function loadProducts(productsUrl) {
+    fetch(productsUrl)
+      .then(response => response.json())
+      .then(data => {
+        products = data;
+        currentPage = 1; // Reset to first page when loading new products
+        renderProducts();
+        renderPagination();
+      })
+      .catch(error => console.error('Error fetching products:', error));
+  }
+
+  // Render product list
+  function renderProducts() {
+    const productList = document.getElementById('product-list');
+    productList.innerHTML = '';
+
+    const productIds = Object.keys(products);
+    const startIndex = (currentPage - 1) * pageSize;
+    const endIndex = startIndex + pageSize;
+    const currentProductIds = productIds.slice(startIndex, endIndex);
+
+    currentProductIds.forEach((productId, index) => {
+      if (index % 4 === 0) {
+        const row = document.createElement('div');
+        row.classList.add('row', 'mb-3');
+        productList.appendChild(row);
+      }
+
+      const col = document.createElement('div');
+      col.classList.add('col-md-3', 'mb-3');
+
+      const card = createProductCard(products[productId]);
+      col.appendChild(card);
+      productList.lastElementChild.appendChild(col);
+    });
+  }
+
+  // Create a product card
+  function createProductCard(product) {
+    const cardLink = document.createElement('a');
+    cardLink.href = 'product.html?productId=' + product.id + '&categoryId=' + currentCategory;
+    cardLink.classList.add('card', 'h-100');
+
+    const img = document.createElement('img');
+    img.src = product.mainImageURL;
+    img.classList.add('card-img-top');
+    img.alt = product.name;
+
+    const cardBody = document.createElement('div');
+    cardBody.classList.add('card-body');
+
+    const title = document.createElement('h6');
+    title.textContent = product.name;
+    title.classList.add('card-title');
+    title.title = product.name; // 添加 title 属性
+
+    const priceRange = `$${product.priceMin} - $${product.priceMax}`;
+    const price = document.createElement('p');
+    price.textContent = `${priceRange}`;
+    price.classList.add('card-text', 'price-red');
+
+    const moq = document.createElement('p');
+    moq.textContent = `MOQ: ${product.MOQ}`;
+    moq.classList.add('card-text');
+
+    cardBody.appendChild(title);
+    cardBody.appendChild(price);
+    cardBody.appendChild(moq);
+
+    cardLink.appendChild(img);
+    cardLink.appendChild(cardBody);
+
+    return cardLink;
+  }
+
+  // Render pagination
+  function renderPagination() {
+    renderPaginationComponent('pagination-top');
+    renderPaginationComponent('pagination-bottom');
+  }
+
+  // Render pagination component
+  function renderPaginationComponent(paginationId) {
+    const pagination = document.getElementById(paginationId);
+    pagination.innerHTML = '';
+
+    const totalPages = Math.ceil(Object.keys(products).length / pageSize);
+
+    const prevLink = createPaginationLink('Previous', currentPage > 1, () => {
+      if (currentPage > 1) {
+        currentPage--;
+        renderProducts();
+        renderPagination(); // 重新渲染分页
+      }
+    });
+    pagination.appendChild(prevLink);
+
+    for (let i = 1; i <= totalPages; i++) {
+      const pageLink = createPaginationLink(i, i !== currentPage, () => {
+        currentPage = i;
+        renderProducts();
+        renderPagination(); // 重新渲染分页
+      });
+      if (i === currentPage) {
+        pageLink.classList.add('active');
+      }
+      pagination.appendChild(pageLink);
+    }
+
+    const nextLink = createPaginationLink('Next', currentPage < totalPages, () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        renderProducts();
+        renderPagination(); // 重新渲染分页
+      }
+    });
+    pagination.appendChild(nextLink);
+  }
+
+  // Create a pagination link
+  function createPaginationLink(text, isEnabled, onClick) {
+    const pageLink = document.createElement('li');
+    pageLink.classList.add('page-item');
+    if (!isEnabled) {
+      pageLink.classList.add('disabled');
+    }
+
+    const pageButton = document.createElement('a');
+    pageButton.href = '#';
+    pageButton.classList.add('page-link');
+    pageButton.textContent = text;
+    pageButton.addEventListener('click', onClick);
+
+    pageLink.appendChild(pageButton);
+    return pageLink;
+  }
+</script>
+</div>
     </main>
     <footer class="bg-white page-footer dark">
         <div class="row">

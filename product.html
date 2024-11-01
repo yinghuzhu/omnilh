@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>About Us - Omnilh</title>
+    <title>Product Detail - Omnilh</title>
     <meta name="description" content="Omnilh is a professional scarf supplier . With extensive experience in developing, designing, and selling, we create hundreds of new designs each year. Our scarves are crafted from high-quality materials, including Rayon + Acrylic, Rayon, Cashmere, and Imitation Cashmere Embroidery. Quality is the lifeblood of our products, and ensuring a great customer experience is our ultimate goal. Despite maintaining high quality, we offer competitive prices, providing exceptional value to our customers.">
     <meta name="twitter:card" content="summary">
     <meta property="og:type" content="website">
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
     <link rel="stylesheet" href="assets/css/swiper-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/iframe.css">
@@ -52,43 +51,206 @@
         </div>
     </nav>
     <main class="page">
-        <section class="clean-block about-us">
-            <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">John Smith</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">Robert Downturn</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="card text-center clean-card">
-                            <div class="card-body info">
-                                <h4 class="card-title">Ally Sanders</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a><a href="#"><i class="icon-social-twitter"></i></a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container"><span>Text</span>
+
+<style>
+    .main-image {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+    .thumbnail-image {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      cursor: pointer;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .thumbnail-image:hover {
+      opacity: 0.7;
+    }
+
+    .selected-thumbnail {
+      border: 2px solid #007bff;
+    }
+
+    .modal-image {
+      width: 600px;
+      height: 600px;
+      object-fit: cover;
+    }
+
+    .modal-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .modal-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .modal-arrow:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .modal-arrow-left {
+      left: 10px;
+    }
+
+    .modal-arrow-right {
+      right: 10px;
+    }
+
+    .price-red {
+      color: red;
+      font-size: 1.5em;
+    }
+  </style>
+
+<div class="row">
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+          <img id="main-image" src="" alt="Main Image" class="main-image img-fluid">
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-12">
+          <div class="d-flex flex-wrap" id="thumbnail-list"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <h2 id="product-name"></h2>
+      <p><strong>Item No:</strong> <span id="product-no"></span></p>
+      <p><strong>Material:</strong> <span id="product-material"></span></p>
+      <p><strong>Weight:</strong> <span id="product-weight"></span></p>
+      <p><strong>MOQ:</strong> <span id="product-moq"></span></p>
+      <p><strong></strong> <span id="product-price-range"></span></p>
+    </div>
+  </div>
+
+  <script>
+    // Get productId and categoryId from URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('productId');
+    const categoryId = urlParams.get('categoryId');
+
+    // Fetch product data
+    const productUrl = `assets/js/product/${categoryId}.json`;
+    fetch(productUrl)
+      .then(response => response.json())
+      .then(data => {
+        product = data[productId];
+        renderProductDetails(categoryId, product);
+        renderThumbnails(product.secondaryImageURLs);
+      })
+      .catch(error => console.error('Error fetching product data:', error));
+
+    // Render product details
+    function renderProductDetails(categoryId, product) {
+      // 格式化 categoryId 和 productId
+      const formattedCategoryId = categoryId.padStart(3, '0');
+      const formattedProductId = product.id.toString().padStart(5, '0');
+      const productNo = `o-${formattedCategoryId}-${formattedProductId}`;
+      const priceRange = `$${product.priceMin} - $${product.priceMax}`
+      
+      document.getElementById('main-image').src = product.mainImageURL;
+      document.getElementById('product-name').textContent = product.name;
+      document.getElementById('product-no').textContent = productNo;
+      document.getElementById('product-price-range').textContent = priceRange;
+      document.getElementById('product-price-range').classList.add('price-red');
+      document.getElementById('product-material').textContent = product.material;
+      document.getElementById('product-weight').textContent = product.weight;
+      document.getElementById('product-moq').textContent = 10;
+      document.title = product.name;
+    }
+
+    // Render thumbnails
+    function renderThumbnails(imageURLs) {
+      const thumbnailList = document.getElementById('thumbnail-list');
+      imageURLs.forEach((url, index) => {
+        const thumbnail = document.createElement('img');
+        thumbnail.src = url;
+        thumbnail.alt = `Thumbnail ${index + 1}`;
+        thumbnail.classList.add('thumbnail-image');
+        thumbnail.addEventListener('click', () => {
+          document.getElementById('main-image').src = url;
+          selectThumbnail(thumbnail);
+        });
+        thumbnailList.appendChild(thumbnail);
+      });
+
+      // Select the first thumbnail by default
+      selectThumbnail(thumbnailList.firstChild);
+    }
+
+    // Select thumbnail
+    function selectThumbnail(thumbnail) {
+      const thumbnails = document.querySelectorAll('.thumbnail-image');
+      thumbnails.forEach(thumb => thumb.classList.remove('selected-thumbnail'));
+      thumbnail.classList.add('selected-thumbnail');
+    }
+
+    // Zoom main image
+    document.getElementById('main-image').addEventListener('click', () => {
+      const mainImage = document.getElementById('main-image');
+      const modal = document.createElement('div');
+      modal.classList.add('modal', 'fade');
+      modal.id = 'imageModal';
+      modal.tabIndex = '-1';
+      modal.role = 'dialog';
+      modal.innerHTML = `
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="${mainImage.src}" alt="Zoomed Image" class="modal-image img-fluid">
+              <button type="button" class="modal-arrow modal-arrow-left">&lt;</button>
+              <button type="button" class="modal-arrow modal-arrow-right">&gt;</button>
             </div>
-        </section>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+      $(modal).modal('show');
+
+      const modalImage = modal.querySelector('.modal-image');
+      const prevButton = modal.querySelector('.modal-arrow-left');
+      const nextButton = modal.querySelector('.modal-arrow-right');
+
+      let currentIndex = Array.from(document.querySelectorAll('.thumbnail-image')).findIndex(img => img.src === mainImage.src);
+
+      prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + document.querySelectorAll('.thumbnail-image').length) % document.querySelectorAll('.thumbnail-image').length;
+        modalImage.src = document.querySelectorAll('.thumbnail-image')[currentIndex].src;
+      });
+
+      nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % document.querySelectorAll('.thumbnail-image').length;
+        modalImage.src = document.querySelectorAll('.thumbnail-image')[currentIndex].src;
+      });
+
+      $(modal).on('hidden.bs.modal', () => {
+        document.body.removeChild(modal);
+      });
+    });
+  </script>
+
+
+</div>
     </main>
     <footer class="bg-white page-footer dark">
         <div class="row">
