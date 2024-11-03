@@ -166,7 +166,18 @@
       const formattedCategoryId = categoryId.padStart(3, '0');
       const formattedProductId = product.id.toString().padStart(5, '0');
       const productNo = `o-${formattedCategoryId}-${formattedProductId}`;
-      const priceRange = `$${product.priceMin} - $${product.priceMax}`
+      if (!product.priceMin.startsWith('$')) {
+          priceMin = '$' + product.priceMin;
+      } else {
+          priceMin = product.priceMin;
+      }
+
+      if (!product.priceMax.startsWith('$')) {
+          priceMax = '$' + product.priceMax;
+      } else {
+          priceMax = product.priceMax;
+      }
+      const priceRange = `${priceMin} - ${priceMax}`;
       
       document.getElementById('main-image').src = product.mainImageURL;
       document.getElementById('product-name').textContent = product.name;

@@ -197,8 +197,19 @@
     title.textContent = product.name;
     title.classList.add('card-title');
     title.title = product.name; // 添加 title 属性
+ 
+    if (!product.priceMin.startsWith('$')) {
+        priceMin = '$' + product.priceMin;
+    } else {
+        priceMin = product.priceMin;
+    }
 
-    const priceRange = `$${product.priceMin} - $${product.priceMax}`;
+    if (!product.priceMax.startsWith('$')) {
+        priceMax = '$' + product.priceMax;
+    } else {
+        priceMax = product.priceMax;
+    }
+    const priceRange = `${priceMin} - ${priceMax}`;
     const price = document.createElement('p');
     price.textContent = `${priceRange}`;
     price.classList.add('card-text', 'price-red');
