@@ -1,1444 +1,321 @@
 {
-    "1560": {
-        "id": 1560,
-        "name": "",
+    "1556": {
+        "id": 1556,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00037.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00038.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00039.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00040.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00041.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00041.jpg"
-    },
-    "1559": {
-        "id": 1559,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00040.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00040.jpg"
-    },
-    "1558": {
-        "id": 1558,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00039.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00039.jpg"
-    },
-    "1557": {
-        "id": 1557,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00038.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00038.jpg"
-    },
-    "1556": {
-        "id": 1556,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00037.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00037.jpg"
     },
-    "1555": {
-        "id": 1555,
-        "name": "",
+    "1550": {
+        "id": 1550,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00031.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00032.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00033.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00034.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00035.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00036.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00036.jpg"
-    },
-    "1554": {
-        "id": 1554,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00035.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00035.jpg"
-    },
-    "1553": {
-        "id": 1553,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00034.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00034.jpg"
-    },
-    "1552": {
-        "id": 1552,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00033.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00033.jpg"
-    },
-    "1551": {
-        "id": 1551,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00032.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00032.jpg"
-    },
-    "1550": {
-        "id": 1550,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00031.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00031.jpg"
     },
-    "1549": {
-        "id": 1549,
-        "name": "",
+    "1544": {
+        "id": 1544,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00025.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00026.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00027.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00028.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00029.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00030.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00030.jpg"
-    },
-    "1548": {
-        "id": 1548,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00029.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00029.jpg"
-    },
-    "1547": {
-        "id": 1547,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00028.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00028.jpg"
-    },
-    "1546": {
-        "id": 1546,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00027.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00027.jpg"
-    },
-    "1545": {
-        "id": 1545,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00026.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00026.jpg"
-    },
-    "1544": {
-        "id": 1544,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00025.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00025.jpg"
     },
-    "1543": {
-        "id": 1543,
-        "name": "",
+    "1538": {
+        "id": 1538,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00019.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00020.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00021.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00022.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00023.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00024.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00024.jpg"
-    },
-    "1542": {
-        "id": 1542,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00023.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00023.jpg"
-    },
-    "1541": {
-        "id": 1541,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00022.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00022.jpg"
-    },
-    "1540": {
-        "id": 1540,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00021.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00021.jpg"
-    },
-    "1539": {
-        "id": 1539,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00020.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00020.jpg"
-    },
-    "1538": {
-        "id": 1538,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00019.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00019.jpg"
     },
-    "1537": {
-        "id": 1537,
-        "name": "",
+    "1532": {
+        "id": 1532,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00013.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00014.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00015.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00016.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00017.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00018.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00018.jpg"
-    },
-    "1536": {
-        "id": 1536,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00017.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00017.jpg"
-    },
-    "1535": {
-        "id": 1535,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00016.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00016.jpg"
-    },
-    "1534": {
-        "id": 1534,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00015.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00015.jpg"
-    },
-    "1533": {
-        "id": 1533,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00014.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00014.jpg"
-    },
-    "1532": {
-        "id": 1532,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00013.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00013.jpg"
     },
-    "1531": {
-        "id": 1531,
-        "name": "",
+    "1526": {
+        "id": 1526,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00007.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00008.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00009.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00010.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00011.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00012.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00012.jpg"
-    },
-    "1530": {
-        "id": 1530,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00011.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00011.jpg"
-    },
-    "1529": {
-        "id": 1529,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00010.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00010.jpg"
-    },
-    "1528": {
-        "id": 1528,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00009.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00009.jpg"
-    },
-    "1527": {
-        "id": 1527,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00008.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00008.jpg"
-    },
-    "1526": {
-        "id": 1526,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00007.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00007.jpg"
     },
-    "1525": {
-        "id": 1525,
-        "name": "",
+    "1520": {
+        "id": 1520,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00001.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00002.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00003.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00004.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00005.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00006.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00006.jpg"
-    },
-    "1524": {
-        "id": 1524,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00005.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00005.jpg"
-    },
-    "1523": {
-        "id": 1523,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00004.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00004.jpg"
-    },
-    "1522": {
-        "id": 1522,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00003.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00003.jpg"
-    },
-    "1521": {
-        "id": 1521,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00002.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00002.jpg"
-    },
-    "1520": {
-        "id": 1520,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00001.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/L-00001.jpg"
     },
-    "1519": {
-        "id": 1519,
-        "name": "",
+    "1518": {
+        "id": 1518,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-small-square.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-windmill.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-windmill.jpg"
-    },
-    "1518": {
-        "id": 1518,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-small-square.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-small-square.jpg"
     },
-    "1517": {
-        "id": 1517,
-        "name": "",
+    "1512": {
+        "id": 1512,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-62.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-67.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-70.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-80.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-h68.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-smal-flower.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-smal-flower.jpg"
-    },
-    "1516": {
-        "id": 1516,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-h68.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-h68.jpg"
-    },
-    "1515": {
-        "id": 1515,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-80.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-80.jpg"
-    },
-    "1514": {
-        "id": 1514,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-70.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-70.jpg"
-    },
-    "1513": {
-        "id": 1513,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-67.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-67.jpg"
-    },
-    "1512": {
-        "id": 1512,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-62.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-62.jpg"
     },
-    "1511": {
-        "id": 1511,
-        "name": "",
+    "1506": {
+        "id": 1506,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-46.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-55.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-56.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-57.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-58.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-60.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-60.jpg"
-    },
-    "1510": {
-        "id": 1510,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-58.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-58.jpg"
-    },
-    "1509": {
-        "id": 1509,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-57.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-57.jpg"
-    },
-    "1508": {
-        "id": 1508,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-56.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-56.jpg"
-    },
-    "1507": {
-        "id": 1507,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-55.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-55.jpg"
-    },
-    "1506": {
-        "id": 1506,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-46.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-46.jpg"
     },
-    "1505": {
-        "id": 1505,
-        "name": "",
+    "1500": {
+        "id": 1500,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-3351.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-37.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-38.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-39.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-40.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-45.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-45.jpg"
-    },
-    "1504": {
-        "id": 1504,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-40.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-40.jpg"
-    },
-    "1503": {
-        "id": 1503,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-39.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-39.jpg"
-    },
-    "1502": {
-        "id": 1502,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-38.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-38.jpg"
-    },
-    "1501": {
-        "id": 1501,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-37.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-37.jpg"
-    },
-    "1500": {
-        "id": 1500,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-3351.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-3351.jpg"
     },
-    "1499": {
-        "id": 1499,
-        "name": "",
+    "1494": {
+        "id": 1494,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-235.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-236.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-237.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-240.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-242.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-26.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-26.jpg"
-    },
-    "1498": {
-        "id": 1498,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-242.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-242.jpg"
-    },
-    "1497": {
-        "id": 1497,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-240.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-240.jpg"
-    },
-    "1496": {
-        "id": 1496,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-237.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-237.jpg"
-    },
-    "1495": {
-        "id": 1495,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-236.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-236.jpg"
-    },
-    "1494": {
-        "id": 1494,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-235.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-235.jpg"
     },
-    "1493": {
-        "id": 1493,
-        "name": "",
+    "1488": {
+        "id": 1488,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-1273.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-18.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-211.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-22.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-232.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-234.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-234.jpg"
-    },
-    "1492": {
-        "id": 1492,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-232.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-232.jpg"
-    },
-    "1491": {
-        "id": 1491,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-22.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-22.jpg"
-    },
-    "1490": {
-        "id": 1490,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-211.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-211.jpg"
-    },
-    "1489": {
-        "id": 1489,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-18.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-18.jpg"
-    },
-    "1488": {
-        "id": 1488,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-1273.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-1273.jpg"
     },
-    "1487": {
-        "id": 1487,
-        "name": "",
+    "1482": {
+        "id": 1482,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-106.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-11.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-12.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-121133.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-122.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-1267.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-1267.jpg"
-    },
-    "1486": {
-        "id": 1486,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-122.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-122.jpg"
-    },
-    "1485": {
-        "id": 1485,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-121133.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-121133.jpg"
-    },
-    "1484": {
-        "id": 1484,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-12.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-12.jpg"
-    },
-    "1483": {
-        "id": 1483,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-11.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-11.jpg"
-    },
-    "1482": {
-        "id": 1482,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-106.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-106.jpg"
     },
-    "1481": {
-        "id": 1481,
-        "name": "",
+    "1476": {
+        "id": 1476,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0085.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-10.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-101.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-102.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-104.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-105.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-105.jpg"
-    },
-    "1480": {
-        "id": 1480,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-104.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-104.jpg"
-    },
-    "1479": {
-        "id": 1479,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-102.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-102.jpg"
-    },
-    "1478": {
-        "id": 1478,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-101.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-101.jpg"
-    },
-    "1477": {
-        "id": 1477,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-10.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-10.jpg"
-    },
-    "1476": {
-        "id": 1476,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0085.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0085.jpg"
     },
-    "1475": {
-        "id": 1475,
-        "name": "",
+    "1470": {
+        "id": 1470,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0077.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-1.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-2.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-3.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0079.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0080.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0080.jpg"
-    },
-    "1474": {
-        "id": 1474,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0079.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0079.jpg"
-    },
-    "1473": {
-        "id": 1473,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-3.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-3.jpg"
-    },
-    "1472": {
-        "id": 1472,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-2.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-2.jpg"
-    },
-    "1471": {
-        "id": 1471,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-1.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0078-1.jpg"
-    },
-    "1470": {
-        "id": 1470,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0077.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0077.jpg"
     },
-    "1469": {
-        "id": 1469,
-        "name": "",
+    "1464": {
+        "id": 1464,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0030.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-004.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0042.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0043.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0044.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-005.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-005.jpg"
-    },
-    "1468": {
-        "id": 1468,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0044.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0044.jpg"
-    },
-    "1467": {
-        "id": 1467,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0043.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0043.jpg"
-    },
-    "1466": {
-        "id": 1466,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0042.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0042.jpg"
-    },
-    "1465": {
-        "id": 1465,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-004.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-004.jpg"
-    },
-    "1464": {
-        "id": 1464,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0030.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0030.jpg"
     },
-    "1463": {
-        "id": 1463,
-        "name": "",
+    "1458": {
+        "id": 1458,
         "priceMin": "$2.00",
         "priceMax": "$2.60",
         "Size": "180cm * 70cm",
-        "Weight": "200g",
         "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0010.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0013.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0014.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0022.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0029.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-003.jpg"
         ],
         "MOQ": 50,
         "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-003.jpg"
-    },
-    "1462": {
-        "id": 1462,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0029.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0029.jpg"
-    },
-    "1461": {
-        "id": 1461,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0022.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0022.jpg"
-    },
-    "1460": {
-        "id": 1460,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0014.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0014.jpg"
-    },
-    "1459": {
-        "id": 1459,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0013.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
-        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0013.jpg"
-    },
-    "1458": {
-        "id": 1458,
-        "name": "",
-        "priceMin": "$2.00",
-        "priceMax": "$2.60",
-        "Size": "180cm * 70cm",
-        "Weight": "200g",
-        "secondaryImageURLs": [
-            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0010.jpg"
-        ],
-        "MOQ": 50,
-        "material": "Cotton+Polyester",
+        "weight": "200g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/30/JZJ-0010.jpg"
     }
 }

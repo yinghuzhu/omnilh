@@ -5,6 +5,7 @@
         "priceMin": "3.40",
         "priceMax": "3.70",
         "Size": "180*70cm",
+        "weight": "210g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01GhEHX81kjLxtEKhZ4_!!3294164719-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01zdPtIg1kjLxzvHibx_!!3294164719-0-cib.jpg",
@@ -14,16 +15,15 @@
         ],
         "MOQ": 10,
         "material": "Cotton",
-        "weight": "210g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01GhEHX81kjLxtEKhZ4_!!3294164719-0-cib.jpg"
     },
     "1166": {
         "id": 1166,
-        "name": "",
         "priceMin": "2.10",
         "priceMax": "2.30",
         "Size": "70*180cm",
+        "weight": "170g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01LkrYwl1Bs2l8dftPW_!!0-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN014ZwCx51oHeIviUkHs_!!1902655200-0-cib.jpg",
@@ -43,16 +43,15 @@
         ],
         "MOQ": 10,
         "material": "Chiffon",
-        "weight": "170g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01LkrYwl1Bs2l8dftPW_!!0-0-cib.jpg"
     },
     "1222": {
         "id": 1222,
-        "name": "",
         "priceMin": "1.20",
         "priceMax": "1.30",
         "Size": "80*180cm",
+        "weight": "185g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01hF81tL2AN4WZkY2f8_!!946258190-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01sJS7W12AN4TvKtMDU_!!946258190-0-cib.jpg",
@@ -104,16 +103,15 @@
         ],
         "MOQ": 10,
         "material": "Polyester",
-        "weight": "185g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01hF81tL2AN4WZkY2f8_!!946258190-0-cib.jpg"
     },
     "1223": {
         "id": 1223,
-        "name": "",
         "priceMin": "2.00",
         "priceMax": "2.20",
         "Size": "90*180cm",
+        "weight": "140g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN0123o45d1awxO6EJ0YK_!!2209860663395-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01aMmDyS1awxO6EKgYB_!!2209860663395-0-cib.jpg",
@@ -165,16 +163,15 @@
         ],
         "MOQ": 10,
         "material": "Cotton",
-        "weight": "140g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN0123o45d1awxO6EJ0YK_!!2209860663395-0-cib.jpg"
     },
     "1256": {
         "id": 1256,
-        "name": "",
         "priceMin": "2.10",
         "priceMax": "2.30",
         "Size": "75*180cm",
+        "weight": "160g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN017xljyM1mOOuhJG2h8_!!1649524944-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01Phk7i51mOOuXitfb1_!!1649524944-0-cib.jpg",
@@ -198,16 +195,14 @@
         ],
         "MOQ": 10,
         "material": "Chiffon",
-        "weight": "160g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN017xljyM1mOOuhJG2h8_!!1649524944-0-cib.jpg"
     },
     "1258": {
         "id": 1258,
-        "name": "",
         "priceMin": "2.40",
         "priceMax": "2.60",
-        "Size": "",
+        "weight": "200g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01aB8rkx1OfIxWxFuxf_!!2635001732-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01Sl9pkQ1OfIxY4pAnK_!!2635001732-0-cib.jpg",
@@ -216,16 +211,14 @@
             "https://cbu01.alicdn.com/img/ibank/O1CN01MCP6aT1OfIxdf21re_!!2635001732-0-cib.jpg"
         ],
         "MOQ": 10,
-        "weight": "200g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01aB8rkx1OfIxWxFuxf_!!2635001732-0-cib.jpg"
     },
     "1259": {
         "id": 1259,
-        "name": "",
         "priceMin": "1.00",
         "priceMax": "1.10",
-        "Size": "",
+        "weight": "130g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01bdSOBL2KdhGJdpaPU_!!2209319429580-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN0135c04Q2KdhGGmlHbN_!!2209319429580-0-cib.jpg",
@@ -284,7 +277,6 @@
             "https://cbu01.alicdn.com/img/ibank/O1CN01Pjs6Oa2KdhHzvAPNc_!!2209319429580-0-cib.jpg"
         ],
         "MOQ": 10,
-        "weight": "130g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01bdSOBL2KdhGJdpaPU_!!2209319429580-0-cib.jpg"
     },
@@ -293,7 +285,7 @@
         "name": "Cross-Border Manufacturer Foreign Trade Amazon Arabian Scarf Prayer Scarf Ethnic Style Scarf Men'S And Women'S Shawl Headscarf Jm22",
         "priceMin": "4.20",
         "priceMax": "4.50",
-        "Size": "",
+        "weight": "260g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/22547466114_1242677529.jpg",
             "https://cbu01.alicdn.com/img/ibank/22547460149_1242677529.jpg",
@@ -309,7 +301,6 @@
         ],
         "MOQ": 10,
         "material": "Polyester",
-        "weight": "260g",
         "size": "50*180 * 50",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/22547466114_1242677529.jpg"
     },
@@ -318,7 +309,7 @@
         "name": "Arab Scarf National Style Scarf Shawl Headscarf Prayer Towel A140 * 180Cm",
         "priceMin": "7.90",
         "priceMax": "8.60",
-        "Size": "",
+        "weight": "410g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN014XIMj11Nq0TAZRnLm_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01DnoraF1Nq0OI8C8xA_!!3417831620-0-cib.jpg",
@@ -336,7 +327,6 @@
         ],
         "MOQ": 10,
         "material": "Polyester yarn",
-        "weight": "410g",
         "size": "140CMX180CM",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN014XIMj11Nq0TAZRnLm_!!3417831620-0-cib.jpg"
     },
@@ -345,7 +335,7 @@
         "name": "Arab Scarf Prayer Scarf Ethnic Style Scarf Shawl Headscarf Printed Prayer Scarf",
         "priceMin": "4.70",
         "priceMax": "5.10",
-        "Size": "",
+        "weight": "210g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01N1fvVj1Nq0RnP1ev5_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN013BF3Cs1Nq0UdlXk53_!!3417831620-0-cib.jpg",
@@ -362,7 +352,6 @@
         ],
         "MOQ": 10,
         "material": "Polyester",
-        "weight": "210g",
         "size": "50cm X 180cm + 10 whiskers X 2 whiskers",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01N1fvVj1Nq0RnP1ev5_!!3417831620-0-cib.jpg"
     },
@@ -371,7 +360,7 @@
         "name": "Arab Scarf Prayer Scarf National Style Scarf Shawl Headscarf 110 * 180Cm",
         "priceMin": "6.30",
         "priceMax": "6.80",
-        "Size": "",
+        "weight": "360g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN0144nren1Nq0VjiQTys_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01DnoraF1Nq0OI8C8xA_!!3417831620-0-cib.jpg",
@@ -390,7 +379,6 @@
         ],
         "MOQ": 10,
         "material": "Polyester yarn",
-        "weight": "360g",
         "size": "110cmx180cm",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN0144nren1Nq0VjiQTys_!!3417831620-0-cib.jpg"
     },
@@ -399,7 +387,7 @@
         "name": "Prayer Scarf Arab Scarf Ethnic Style Scarf Shawl Printed Prayer Scarf",
         "priceMin": "6.90",
         "priceMax": "7.50",
-        "Size": "",
+        "weight": "260g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01l7wHQD1Nq0UYb8zVk_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01KFwY361Nq0UYb9G7x_!!3417831620-0-cib.jpg",
@@ -427,7 +415,6 @@
             "https://cbu01.alicdn.com/img/ibank/O1CN01gsQuN01Nq0brxGyUw_!!3417831620-0-cib.jpg"
         ],
         "MOQ": 10,
-        "weight": "260g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01l7wHQD1Nq0UYb8zVk_!!3417831620-0-cib.jpg"
     },
@@ -436,7 +423,7 @@
         "name": "Arab Scarf National Style Scarf Shawl Headscarf Prayer Scarf F50 * 180Cm",
         "priceMin": "6.90",
         "priceMax": "7.50",
-        "Size": "",
+        "weight": "260g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01hrZxaO1Nq0UTjAfdH_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN01nLztj11Nq0UJjYRs9_!!3417831620-0-cib.jpg",
@@ -450,7 +437,6 @@
         ],
         "MOQ": 10,
         "material": "Blended",
-        "weight": "260g",
         "size": "50CM",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01hrZxaO1Nq0UTjAfdH_!!3417831620-0-cib.jpg"
     },
@@ -459,7 +445,7 @@
         "name": "Prayer Scarf Arab Scarf Ethnic Style Scarf Shawl Printed Headscarf",
         "priceMin": "6.90",
         "priceMax": "7.50",
-        "Size": "",
+        "weight": "210g",
         "secondaryImageURLs": [
             "https://cbu01.alicdn.com/img/ibank/O1CN01dJmzHL1Nq0T8eb0JX_!!3417831620-0-cib.jpg",
             "https://cbu01.alicdn.com/img/ibank/O1CN017gXbEw1Nq0T3Gpwpy_!!3417831620-0-cib.jpg",
@@ -490,7 +476,6 @@
         ],
         "MOQ": 10,
         "material": "Polyester",
-        "weight": "210g",
         "size": ",",
         "mainImageURL": "https://cbu01.alicdn.com/img/ibank/O1CN01dJmzHL1Nq0T8eb0JX_!!3417831620-0-cib.jpg"
     }
