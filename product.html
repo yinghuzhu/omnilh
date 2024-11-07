@@ -187,7 +187,7 @@
       document.getElementById('product-material').textContent = product.material;
       document.getElementById('product-weight').textContent = product.weight;
       document.getElementById('product-moq').textContent = product.MOQ;
-      document.title = product.name;
+      document.title = product.name ? product.name : 'Product Detail - Omnilh';
     }
 
     // Render thumbnails
