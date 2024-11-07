@@ -1,1 +1,92 @@
-{}
+{
+    "1561": {
+        "id": 1561,
+        "Size": "180cm * 70cm",
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00010.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00013.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00015.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00016.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00026.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00027.jpg"
+        ],
+        "material": "Imitation Cashmere",
+        "weight": "360g/460g",
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00010.jpg"
+    },
+    "1567": {
+        "id": 1567,
+        "Size": "180cm * 70cm",
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00028.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00029.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00037.jpg"
+        ],
+        "material": "Imitation Cashmere",
+        "weight": "360g/460g",
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00028.jpg"
+    },
+    "1570": {
+        "id": 1570,
+        "Size": "180cm * 70cm",
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00043.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00044.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00045.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00048.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00049.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00050.jpg"
+        ],
+        "material": "Polyester",
+        "weight": "350g/370g/420g/460g",
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00043.jpg"
+    },
+    "1576": {
+        "id": 1576,
+        "Size": "180cm * 70cm",
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00051.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00053.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00057.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00058.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00060.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00061.jpg"
+        ],
+        "material": "Polyester",
+        "weight": "350g/370g/420g/460g",
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00051.jpg"
+    },
+    "1582": {
+        "id": 1582,
+        "Size": "180cm * 70cm",
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00062.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00064.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00065.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00074.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00075.jpg"
+        ],
+        "material": "Polyester",
+        "weight": "350g/370g/420g/460g",
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00062.jpg"
+    },
+    "1587": {
+        "id": 1587,
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00001.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00002.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00003.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00004.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00005.jpg",
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00006.jpg"
+        ],
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00001.jpg"
+    },
+    "1593": {
+        "id": 1593,
+        "secondaryImageURLs": [
+            "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00007.jpg"
+        ],
+        "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/ZZ-00007.jpg"
+    }
+}
