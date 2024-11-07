@@ -5,22 +5,22 @@
             "name": "pashmina-01"
         },
         {
-            "id": 30,
-            "name": "pashmina-30"
-        },
-        {
             "id": 2,
             "name": "pashmina-02"
-        }
-    ],
-    "silk": [
-        {
-            "id": 5,
-            "name": "silk-05"
         },
         {
-            "id": 20,
-            "name": "silk-20"
+            "id": 30,
+            "name": "pashmina-30"
+        }
+    ],
+    "embroidered": [
+        {
+            "id": 12,
+            "name": "embroidered-12"
+        },
+        {
+            "id": 36,
+            "name": "embroidered-36"
         }
     ],
     "ethnic": [
@@ -37,28 +37,44 @@
             "name": "ethnic-39"
         }
     ],
-    "cashmere": [
-        {
-            "id": 24,
-            "name": "cashmere-24"
-        }
-    ],
     "print": [
         {
             "id": 34,
             "name": "print-34"
         }
     ],
+    "silk": [
+        {
+            "id": 5,
+            "name": "silk-05"
+        },
+        {
+            "id": 20,
+            "name": "silk-20"
+        }
+    ],
+    "imitation_cashmere": [
+        {
+            "id": 9,
+            "name": "imitation_cashmere-09"
+        }
+    ],
+    "man": [
+        {
+            "id": 19,
+            "name": "man-19"
+        }
+    ],
+    "cashmere": [
+        {
+            "id": 24,
+            "name": "cashmere-24"
+        }
+    ],
     "wool": [
         {
             "id": 35,
             "name": "wool-35"
-        }
-    ],
-    "embroidered": [
-        {
-            "id": 36,
-            "name": "embroidered-36"
         }
     ]
 }
