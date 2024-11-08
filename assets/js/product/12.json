@@ -1,6 +1,8 @@
 {
     "1561": {
         "id": 1561,
+        "priceMin": "$3.40",
+        "priceMax": "$4.00",
         "Size": "180cm * 70cm",
         "secondaryImageURLs": [
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00010.jpg",
@@ -10,24 +12,30 @@
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00026.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00027.jpg"
         ],
+        "MOQ": 50,
         "material": "Imitation Cashmere",
         "weight": "360g/460g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00010.jpg"
     },
     "1567": {
         "id": 1567,
+        "priceMin": "$3.40",
+        "priceMax": "$4.00",
         "Size": "180cm * 70cm",
         "secondaryImageURLs": [
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00028.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00029.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00037.jpg"
         ],
+        "MOQ": 50,
         "material": "Imitation Cashmere",
         "weight": "360g/460g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00028.jpg"
     },
     "1570": {
         "id": 1570,
+        "priceMin": "$3.1",
+        "priceMax": "$4.00",
         "Size": "180cm * 70cm",
         "secondaryImageURLs": [
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00043.jpg",
@@ -37,12 +45,15 @@
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00049.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00050.jpg"
         ],
+        "MOQ": 50,
         "material": "Polyester",
         "weight": "350g/370g/420g/460g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00043.jpg"
     },
     "1576": {
         "id": 1576,
+        "priceMin": "$3.1",
+        "priceMax": "$4.00",
         "Size": "180cm * 70cm",
         "secondaryImageURLs": [
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00051.jpg",
@@ -52,12 +63,15 @@
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00060.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00061.jpg"
         ],
+        "MOQ": 50,
         "material": "Polyester",
         "weight": "350g/370g/420g/460g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00051.jpg"
     },
     "1582": {
         "id": 1582,
+        "priceMin": "$3.1",
+        "priceMax": "$4.00",
         "Size": "180cm * 70cm",
         "secondaryImageURLs": [
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00062.jpg",
@@ -66,6 +80,7 @@
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00074.jpg",
             "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00075.jpg"
         ],
+        "MOQ": 50,
         "material": "Polyester",
         "weight": "350g/370g/420g/460g",
         "mainImageURL": "https://pub-2aa0476445bf408ebc063ebfc6b36513.r2.dev/image/offline/12/LM-00062.jpg"
