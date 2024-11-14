@@ -278,12 +278,21 @@
     price.textContent = `${priceRange}`;
     price.classList.add('card-text', 'price-red');
 
+    // 格式化 categoryId 和 productId
+    const formattedCategoryId = currentCategory.toString().padStart(3, '0');
+    const formattedProductId = product.id.toString().padStart(5, '0');
+    const productNo = `O-${formattedCategoryId}-${formattedProductId}`;
+    const itemNo = document.createElement('p');
+    itemNo.textContent = `Item No: ${productNo}`;
+    itemNo.classList.add('card-text');
+    
     const moq = document.createElement('p');
     moq.textContent = `MOQ: ${product.MOQ}`;
     moq.classList.add('card-text');
 
     cardBody.appendChild(title);
     cardBody.appendChild(price);
+    cardBody.appendChild(itemNo);
     cardBody.appendChild(moq);
 
     cardLink.appendChild(img);

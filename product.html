@@ -165,7 +165,7 @@
       // 格式化 categoryId 和 productId
       const formattedCategoryId = categoryId.padStart(3, '0');
       const formattedProductId = product.id.toString().padStart(5, '0');
-      const productNo = `o-${formattedCategoryId}-${formattedProductId}`;
+      const productNo = `O-${formattedCategoryId}-${formattedProductId}`;
       if (!product.priceMin.startsWith('$')) {
           priceMin = '$' + product.priceMin;
       } else {
