@@ -138,6 +138,7 @@
       <p><strong>Item No:</strong> <span id="product-no"></span></p>
       <p><strong>Material:</strong> <span id="product-material"></span></p>
       <p><strong>Weight:</strong> <span id="product-weight"></span></p>
+      <p><strong>Size:</strong> <span id="product-size"></span></p>
       <p><strong>MOQ:</strong> <span id="product-moq"></span></p>
       <p><strong></strong> <span id="product-price-range"></span></p>
     </div>
@@ -179,15 +180,16 @@
       }
       const priceRange = `${priceMin} - ${priceMax}`;
       
+      document.title = product.name ? product.name : 'Product Detail - Omnilh';
       document.getElementById('main-image').src = product.mainImageURL;
-      document.getElementById('product-name').textContent = product.name;
+      document.getElementById('product-name').textContent = product.name ? product.name : '';
       document.getElementById('product-no').textContent = productNo;
       document.getElementById('product-price-range').textContent = priceRange;
       document.getElementById('product-price-range').classList.add('price-red');
-      document.getElementById('product-material').textContent = product.material;
-      document.getElementById('product-weight').textContent = product.weight;
-      document.getElementById('product-moq').textContent = product.MOQ;
-      document.title = product.name ? product.name : 'Product Detail - Omnilh';
+      document.getElementById('product-material').textContent = product.material ? product.material : '';
+      document.getElementById('product-weight').textContent = product.weight ? product.weight : '';
+      document.getElementById('product-size').textContent = product.size ? product.size : '';
+      document.getElementById('product-moq').textContent = product.MOQ ? product.MOQ : '';
     }
 
     // Render thumbnails
