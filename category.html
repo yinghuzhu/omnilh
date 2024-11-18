@@ -69,29 +69,6 @@
      font-size: 1.5em;
   }
 
-  /* 自定义样式类 */
-  .category-list .list-group-item {
-      padding: 0.75rem 1.25rem;
-      margin-bottom: -1px;
-      background-color: #fff;
-      border: 1px solid rgba(0, 0, 0, 0.125);
-  }
-
-  .category-list .list-group-item-action {
-      color: #495057;
-      text-decoration: none;
-      background-color: #f8f9fa;
-  }
-
-  .category-list .list-group-item-action:hover {
-      color: #495057;
-      background-color: #e9ecef;
-  }
-
-  .category-list .font-weight-bold {
-      font-weight: bold;
-  }
-
   /* 折叠二级类目 */
   .category-list .sub-category {
       display: none;
@@ -129,21 +106,53 @@
   let currentPage = 1;
   const pageSize = 16;
 
+  // 获取 URL 参数
+  function getUrlParameter(name) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+    const results = regex.exec(window.location.href);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+
   // Fetch categories and initialize the page
   fetch(categoriesUrl)
     .then(response => response.json())
     .then(data => {
       categories = data;
       renderCategories();
-      if (Object.keys(categories).length > 0) {
-        const firstTopCategory = Object.keys(categories)[0];
-        const firstSubCategory = categories[firstTopCategory][0];
-        const firstSubCategoryId = firstSubCategory.id;
-        const firstSubCategoryName = firstSubCategory.name;
-        const firstSubCategoryProductsUrl = 'assets/js/product/' + firstSubCategoryId + '.json';
-        currentCategory = firstSubCategoryId;
-        loadProducts(firstSubCategoryProductsUrl);
-        document.getElementById('category-title').textContent = firstSubCategoryName;
+
+      // 根据 URL 参数加载特定类目
+      const categoryId = getUrlParameter('categoryId');
+      if (categoryId) {
+        for (const topCategory in categories) {
+          const subCategories = categories[topCategory];
+          const subCategory = subCategories.find(sub => sub.id == categoryId);
+          if (subCategory) {
+            const subCategoryProductsUrl = 'assets/js/product/' + subCategory.id + '.json';
+            currentCategory = subCategory.id;
+            loadProducts(subCategoryProductsUrl);
+            document.getElementById('category-title').textContent = subCategory.name;
+
+            // 展开对应的二级类目
+            const topCategoryLink = document.querySelector(`.category-list a[href="#${topCategory}"]`);
+            const subCategoriesElement = topCategoryLink.nextElementSibling;
+            subCategoriesElement.classList.add('show');
+            break;
+          }
+        }
+      } else {
+        if (Object.keys(categories).length > 0) {
+          const firstTopCategory = Object.keys(categories)[0];
+          const firstSubCategory = categories[firstTopCategory][0];
+          const firstSubCategoryId = firstSubCategory.id;
+          const firstSubCategoryName = firstSubCategory.name;
+          const firstSubCategoryProductsUrl = 'assets/js/product/' + firstSubCategoryId + '.json';
+          currentCategory = firstSubCategoryId;
+          loadProducts(firstSubCategoryProductsUrl);
+          document.getElementById('category-title').textContent = firstSubCategoryName;
+        }
       }
     })
     .catch(error => console.error('Error fetching categories:', error));
@@ -200,6 +209,7 @@
       currentCategory = categoryId;
       loadProducts(productsUrl);
       document.getElementById('category-title').textContent = categoryName;
+      window.history.pushState({}, '', `?categoryId=${categoryId}`);
     });
     return subCategoryLink;
   }
@@ -246,7 +256,8 @@
   // Create a product card
   function createProductCard(product) {
     const cardLink = document.createElement('a');
-    cardLink.href = 'product.html?productId=' + product.id + '&categoryId=' + currentCategory;
+    cardLink.href = `/product.html?productId=${product.id}&categoryId=${currentCategory}`;
+    cardLink.target = '_blank'; // 在新页面打开详情页
     cardLink.classList.add('card', 'h-100');
 
     const img = document.createElement('img');
