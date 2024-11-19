@@ -1,39 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>https://www.omnilh.com/tool/shipping-cost.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/catalog.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/embroidered.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/hot-selling.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/imitation-cashmere.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/imitation-silk.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/man-scarf.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/pashmina-scarf.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/privacy-policy.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/promtion.html</loc>
-    </url>
-    <url>
-        <loc>https://www.omnilh.com/silk.html</loc>
-    </url>
-</urlset>
+<?xml version="1.0" ?>
+<sitemapindex xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/tool/shipping-cost.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/category.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/embroidered.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/hot-selling.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/imitation-cashmere.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/imitation-silk.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/man-scarf.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/pashmina-scarf.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/privacy-policy.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/promtion.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+    
+   <ns0:url>
+      
+        
+      <ns0:loc>https://www.omnilh.com/silk.html</ns0:loc>
+      
+    
+   </ns0:url>
+   
+
+   <sitemap>
+      <loc>https://www.omnilh.com/sitemap_categories.xml</loc>
+      <lastmod>2024-11-19</lastmod>
+   </sitemap>
+</sitemapindex>
