@@ -261,7 +261,97 @@
       });
     });
   </script>
+  <!-- SEO Meta Tags -->
+  <script>
+    // Add meta description based on product details
+    function addMetaTags() {
+      // Create meta description
+      let metaDescription = document.createElement('meta');
+      metaDescription.name = 'description';
+      let description = `${product.name} - Item No: ${document.getElementById('product-no').textContent}`;
+      if(product.material) {
+        description += `, Material: ${product.material}`;
+      }
+      if(product.size) {
+        description += `, Size: ${product.size}`;
+      }
+      description += `. Buy wholesale from Omnilh.`;
+      metaDescription.content = description;
+      document.head.appendChild(metaDescription);
 
+      // Create meta keywords
+      let metaKeywords = document.createElement('meta');
+      metaKeywords.name = 'keywords';
+      let keywords = [
+        product.name,
+        document.getElementById('product-no').textContent,
+        'wholesale',
+        'Omnilh',
+        product.material,
+        'buy online'
+      ].filter(Boolean).join(', ');
+      metaKeywords.content = keywords;
+      document.head.appendChild(metaKeywords);
+
+      // Add Open Graph tags for social sharing
+      let ogTitle = document.createElement('meta');
+      ogTitle.setAttribute('property', 'og:title');
+      ogTitle.content = document.title;
+      document.head.appendChild(ogTitle);
+
+      let ogDescription = document.createElement('meta');
+      ogDescription.setAttribute('property', 'og:description');
+      ogDescription.content = description;
+      document.head.appendChild(ogDescription);
+
+      let ogImage = document.createElement('meta');
+      ogImage.setAttribute('property', 'og:image');
+      ogImage.content = product.mainImageURL;
+      document.head.appendChild(ogImage);
+
+      // Add canonical URL
+      let canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      canonical.href = window.location.href.split('?')[0] + `?productId=${productId}&categoryId=${categoryId}`;
+      document.head.appendChild(canonical);
+
+      // Add structured data for product
+      let structuredData = {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": product.name,
+        "description": description,
+        "image": product.mainImageURL,
+        "sku": document.getElementById('product-no').textContent,
+        "brand": {
+          "@type": "Brand",
+          "name": "Omnilh"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "USD",
+          "priceValidUntil": new Date(Date.now() + 30*24*60*60*1000).toISOString().split('T')[0],
+          "lowPrice": product.priceMin.replace('$',''),
+          "highPrice": product.priceMax.replace('$',''),
+          "availability": "https://schema.org/InStock"
+        }
+      };
+
+      let script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.text = JSON.stringify(structuredData);
+      document.head.appendChild(script);
+    }
+
+    // Call addMetaTags after product data is loaded
+    fetch(productUrl)
+      .then(response => response.json())
+      .then(data => {
+        product = data[productId];
+        addMetaTags();
+      })
+      .catch(error => console.error('Error adding meta tags:', error));
+  </script>
 
 </div>
     </main>
