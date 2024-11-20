@@ -8,7 +8,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=1</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -26,7 +26,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=2</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -44,7 +44,25 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=30</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
+      
+      
+      <ns0:changefreq>weekly</ns0:changefreq>
+      
+      
+      <ns0:priority>0.5</ns0:priority>
+      
+   
+   </ns0:url>
+   
+   
+   <ns0:url>
+      
+      
+      <ns0:loc>https://www.omnilh.com/category.html?categoryId=15</ns0:loc>
+      
+      
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -62,7 +80,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=6</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -80,7 +98,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=7</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -98,7 +116,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=39</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -116,7 +134,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=12</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -134,7 +152,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=16</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -152,7 +170,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=36</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -170,7 +188,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=5</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -188,7 +206,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=20</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -206,7 +224,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=34</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -224,7 +242,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=9</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -242,7 +260,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=24</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -260,7 +278,7 @@
       <ns0:loc>https://www.omnilh.com/category.html?categoryId=35</ns0:loc>
       
       
-      <ns0:lastmod>2024-11-19</ns0:lastmod>
+      <ns0:lastmod>2024-11-20</ns0:lastmod>
       
       
       <ns0:changefreq>weekly</ns0:changefreq>
@@ -274,6 +292,6 @@
 
    <sitemap>
       <loc>https://www.omnilh.com/sitemap_products.xml</loc>
-      <lastmod>2024-11-19</lastmod>
+      <lastmod>2024-11-20</lastmod>
    </sitemap>
 </ns0:urlset>
