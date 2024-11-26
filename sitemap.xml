@@ -2,60 +2,93 @@
 <sitemapindex xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <ns0:url>
       
+      
         
+      
       <ns0:loc>https://www.omnilh.com/tool/shipping-cost.html</ns0:loc>
       
+      
     
+   
    </ns0:url>
    
+   
     
+   
    <ns0:url>
       
+      
         
+      
       <ns0:loc>https://www.omnilh.com/category.html</ns0:loc>
       
+      
     
+   
    </ns0:url>
    
+   
     
+   
    <ns0:url>
       
+      
         
+      
       <ns0:loc>https://www.omnilh.com/hot-selling.html</ns0:loc>
       
+      
     
+   
    </ns0:url>
    
+   
     
+   
    <ns0:url>
       
+      
         
+      
       <ns0:loc>https://www.omnilh.com/</ns0:loc>
       
+      
     
+   
    </ns0:url>
    
+   
     
+   
    <ns0:url>
       
+      
         
+      
       <ns0:loc>https://www.omnilh.com/privacy-policy.html</ns0:loc>
       
+      
     
+   
    </ns0:url>
    
-    
-   <ns0:url>
+   
+
+   
+   <ns0:sitemap>
       
-        
-      <ns0:loc>https://www.omnilh.com/promtion.html</ns0:loc>
       
-    
-   </ns0:url>
+      <ns0:loc>https://www.omnilh.com/sitemap_categories.xml</ns0:loc>
+      
+      
+      <ns0:lastmod>2024-11-26</ns0:lastmod>
+      
+   
+   </ns0:sitemap>
    
 
    <sitemap>
       <loc>https://www.omnilh.com/sitemap_categories.xml</loc>
-      <lastmod>2024-11-20</lastmod>
+      <lastmod>2024-11-26</lastmod>
    </sitemap>
 </sitemapindex>
